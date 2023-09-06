@@ -77,19 +77,19 @@ li a{
 
 .otimi p{
      position: absolute;
-     top:49%;
+     top:45%;
      color: white;
-     font-size: 50px;
-     left: 16%;
+     font-size: 60px;
+     left: 8%;
      font-weight: 600;
 }
 
 .otimi P2{
      position: absolute;
-     top:69%;
+     top:67%;
      color: white;
-     font-size: 20px;
-     left: 16%;
+     font-size: 25px;
+     left: 8%;
 }
 .otimi button{
      position: absolute;
@@ -98,7 +98,7 @@ li a{
      background-color: #020D3D;
      color: aliceblue;
      top: 140%;
-     font-size: 80%;
+     font-size: 17px;
      left: 0%;
      border: none;
 }
