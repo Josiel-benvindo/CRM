@@ -1,6 +1,6 @@
 body{
      font-family: Arial, Helvetica, sans-serif;
-     height: 3500px;
+     height: 3000px;
      width: 100%;
      position: absolute;
      left: -0.6%;
@@ -63,6 +63,16 @@ li a{
      z-index: 2;
      grid-template-columns: 1fr 1fr;
      grid-template-rows: auto auto;
+}
+
+.otimi img{
+
+    position: absolute;
+    right: 130px;
+    top: 420px;
+    width: 624px;
+    width: 624px;
+
 }
 
 .otimi p{
@@ -675,6 +685,96 @@ li a{
 }
 
 
-@media screen{
-     
+
+
+
+.exp p{
+
+    position: absolute;
+    font-size: 27PX;
+    width: 520PX;
+    height: 100px;
+    left: 250px;
+    top: 3%;
+    font-weight: 600;
+
+}
+
+.exp button{
+    position: absolute;
+    background-color:#020D3D ;
+    color: white;
+    left: 60%;
+    top: 50px;
+    height: 50PX;
+    width: 300PX;
+    border-radius: 30px;
+    border-bottom: white;
+    border: 3px solid rgb(74, 133, 217);
+    font-size: 15px;
+
+}
+
+.exp button:hover{
+
+    background-color: #4A85D9;
+    color: #020D3D;
+
+}
+
+.patro{
+    position: absolute;
+    background-color:#004AAD;
+    top: 103%;
+    height: 140px;
+    width: 100%;
+
+}
+
+.patro img{
+    position: absolute;
+    top: 40px;
+    width: 250px;
+    height: 70px;
+    right: 64%;
+
+}
+
+.patro  a img {
+
+    position: absolute;
+    top: 50px;
+    width: 240px;
+    height: 50px;
+    right: 40%;
+
+}
+
+.patro p{
+    top: 15px;
+    color: white;
+    position: absolute;
+    width: 170px;
+    left: 1000px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.direito{
+    position: absolute;
+    background-color:#868686;
+     top: 107.6%;
+     width: 100%;
+     height: 60px;
+}
+
+.direito p{
+    position: absolute;
+    left: 500px;
+    top: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+
 }
