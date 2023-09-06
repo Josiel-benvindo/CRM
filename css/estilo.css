@@ -1,0 +1,680 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     height: 3500px;
+     width: 100%;
+     position: absolute;
+     left: -0.6%;
+     z-index: 1;
+}
+
+.menu{
+     background-color: #004bad90;
+     position: fixed;
+     height: 9%;
+     width: 100%;
+     top: 0px; 
+     right: 0px;
+     z-index: 3;
+}
+
+.menu img{
+
+     position: absolute;
+     width: 195px;
+     height: 70%;
+     top: 25%;
+     left: 100PX;
+}
+
+.menu ul{
+
+     list-style: none;
+     position: absolute;
+     display: flex;
+     align-items: center;
+     height: 100%;
+     margin: 10px;
+     right: 0px;
+     top: -10%;
+    
+}
+
+ul li{
+     font-size: X-large;
+     margin-right: 150px;
+     
+
+}
+
+li a{
+     color: aliceblue;
+     text-decoration: none;
+
+}
+
+.otimi{
+
+     background-color: #004AAD;
+     position:absolute;
+     float: inline-start;
+     height: 990px;
+     width: 100%;
+     top: -10%;
+     z-index: 2;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: auto auto;
+}
+
+.otimi p{
+     position: absolute;
+     top:49%;
+     color: white;
+     font-size: 50px;
+     left: 16%;
+     font-weight: 600;
+}
+
+.otimi P2{
+     position: absolute;
+     top:69%;
+     color: white;
+     font-size: 20px;
+     left: 16%;
+}
+.otimi button{
+     position: absolute;
+     height: 40px;
+     width: 155px;
+     background-color: #020D3D;
+     color: aliceblue;
+     top: 140%;
+     font-size: 80%;
+     left: 0%;
+     border: none;
+}
+.otimi button:hover{
+     transform: scale(1.09);
+     background-color: #04189E;
+     transition: 0.5s;
+}
+
+.desafio{
+
+     position: absolute;
+     width: 100%;
+     height:900px;
+     top: 23%;
+}
+.desafio p{
+     color: #004AAD;
+     position: absolute;
+     top:0%;
+     font-size: 38px;
+     left: 25%;
+     font-weight: 600;
+     letter-spacing: 2px; 
+
+}
+
+.desogam{
+     position: absolute;
+     top: 20%;
+     height: 200px;
+     width: 300px;
+     left: 6%;
+}
+
+.desogam .container .card{
+
+    height: 100px;
+
+}
+
+.desogam .container .card .icon {
+
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #004AAD;
+     border-radius: 10px;
+ 
+ }
+ 
+.desogam  .container .card .icon img {
+ 
+     position: absolute;
+     top: 2%;
+     left: 35%;
+     width: 90px;
+     height: 80px;
+ }
+ 
+.desogam  .container a{
+     position: absolute;
+     width: 240px;
+     color: white;
+     font-size: 28px;
+     top: 50%;
+     left: 17%;
+     font-weight: 600; 
+ }
+ 
+.desogam  .container .card .icon .text {
+ 
+     position: absolute;
+     top: 90%;
+     left: 40%;
+     transform: translate(-50%, -50%);
+     font-size: 90px;
+ 
+ }
+
+.desogam  .container .card .slide {
+
+     width: 300px;
+     height: 200px;
+     transition: 0.5s;
+ 
+ }
+ 
+.desogam  .container .card .slide.slide1 {
+
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 1;
+     transition: .7s;
+     transform: translateY(100px);
+ 
+ }
+ 
+.desogam  .container .card:hover .slide.slide1{
+
+     transform: translateY(0px);
+ 
+ }
+ 
+.desogam  .container .card .slide.slide2 {
+
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     box-sizing: border-box;
+     transition: .8s;
+     transform: translateY(-100px);
+     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+     border-radius: 10px;
+ 
+ }
+
+.desogam  .container .card:hover .slide.slide2{
+
+     transform: translateY(0);
+ 
+ }
+ 
+.desogam  .container .card .slide.slide2::after{
+ 
+     content: "";
+     position: absolute;
+     width: 30px;
+     height: 4px;
+     bottom: 15px;
+     left: 50%;
+     left: 50%;
+     transform: translateX(-50%);
+     background: #004AAD;
+
+ }
+ 
+.desogam  .container .card .slide.slide2 .content p {
+
+     position:absolute ;
+     width: 100%;
+     top: 10%;
+     left: 0%;
+     font-size: 17px;
+     text-align: center;
+     color: #414141;
+ 
+ }
+
+ .tempo{
+     position: absolute;
+     top: 20%;
+     height: 200px;
+     width: 300px;
+     left: 28%;
+}
+
+.tempo .container .card{
+
+    height: 100px;
+
+}
+
+.tempo .container .card .icon {
+
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #004AAD;
+     border-radius: 10px;
+ }
+ 
+ .tempo  .container .card .icon img {
+
+     position: absolute;
+     top: 2%;
+     left: 35%;
+     width: 90px;
+     height: 80px;
+ }
+ 
+ .tempo  .container a{
+     position: absolute;
+     width: 240px;
+     color: white;
+     font-size: 24px;
+     top: 50%;
+     left: 10%;
+     text-align: center;
+     font-weight: 600;
+ 
+ }
+ 
+ .tempo  .container .card .icon .text {
+
+     position: absolute;
+     top: 90%;
+     left: 40%;
+     transform: translate(-50%, -50%);
+     font-size: 90px;
+ 
+ }
+ 
+ .tempo .container .card .slide {
+
+     width: 300px;
+     height: 200px;
+     transition: 0.5s;
+ 
+ }
+ 
+ .tempo .container .card .slide.slide1 {
+ 
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 1;
+     transition: .7s;
+     transform: translateY(100px);
+ 
+ }
+ 
+ .tempo  .container .card:hover .slide.slide1{
+ 
+     transform: translateY(0px);
+ 
+ }
+ 
+ .tempo .container .card .slide.slide2 {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     box-sizing: border-box;
+     transition: .8s;
+     transform: translateY(-100px);
+     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+     border-radius: 10px;
+ 
+ }
+
+ .tempo  .container .card:hover .slide.slide2{
+     transform: translateY(0);
+ 
+ }
+ 
+ .tempo  .container .card .slide.slide2::after{
+ 
+     content: "";
+     position: absolute;
+     width: 30px;
+     height: 4px;
+     bottom: 15px;
+     left: 50%;
+     left: 50%;
+     transform: translateX(-50%);
+     background: #004AAD;
+ 
+ }
+ 
+ .tempo  .container .card .slide.slide2 .content p {
+     position:absolute;
+     width: 100%;
+     top: 10%;
+     left: 0%;
+     font-size: 17px;
+     text-align: center;
+     color: #414141;
+     text-align: center;
+ 
+ }
+
+ .lead {
+     position: absolute;
+     top: 20%;
+     height: 200px;
+     width: 300px;
+     left: 50%;
+}
+
+.lead .container .card{
+
+    height: 100px;
+
+}
+
+.lead .container .card .icon {
+
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #004AAD;
+     border-radius: 10px;
+ }
+ 
+ .lead  .container .card .icon img {
+
+     position: absolute;
+     top: 3%;
+     left: 35%;
+     width: 90px;
+     height: 80px;
+ }
+ 
+ .lead  .container a{
+     position: absolute;
+     width: 240px;
+     color: white;
+     font-size: 24px;
+     top: 50%;
+     left: 10%;
+     text-align: center;
+     font-weight: 600;
+ 
+ }
+ 
+ .lead  .container .card .icon .text {
+
+     position: absolute;
+     top: 90%;
+     left: 40%;
+     transform: translate(-50%, -50%);
+     font-size: 90px;
+ 
+ }
+ 
+ .lead  .container .card .slide {
+
+     width: 300px;
+     height: 200px;
+     transition: 0.5s;
+ 
+ }
+ 
+ .lead  .container .card .slide.slide1 {
+ 
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 1;
+     transition: .7s;
+     transform: translateY(100px);
+ 
+ }
+ 
+ .lead   .container .card:hover .slide.slide1{
+ 
+     transform: translateY(0px);
+ 
+ }
+ 
+ .lead .container .card .slide.slide2 {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     box-sizing: border-box;
+     transition: .8s;
+     transform: translateY(-100px);
+     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+     border-radius: 10px;
+ 
+ }
+
+ .lead   .container .card:hover .slide.slide2{
+     transform: translateY(0);
+ 
+ }
+ 
+ .lead   .container .card .slide.slide2::after{
+ 
+     content: "";
+     position: absolute;
+     width: 30px;
+     height: 4px;
+     bottom: 15px;
+     left: 50%;
+     left: 50%;
+     transform: translateX(-50%);
+     background: #004AAD;
+ 
+ }
+ 
+ .lead  .container .card .slide.slide2 .content p {
+     position:absolute;
+     width: 100%;
+     top: 10%;
+     left: 0%;
+     font-size: 17px;
+     text-align: center;
+     color: #414141;
+     text-align: center;
+ 
+ }
+
+ .analise {
+     position: absolute;
+     top: 20%;
+     height: 200px;
+     width: 300px;
+     left: 72%;
+}
+
+.analise .container .card{
+
+    height: 100px;
+
+}
+
+.analise  .container .card .icon {
+
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #004AAD;
+     border-radius: 10px;
+ }
+ 
+ .analise   .container .card .icon img {
+
+     position: absolute;
+     top: 3%;
+     left: 35%;
+     width: 90px;
+     height: 80px;
+ }
+ 
+ .analise  .container a{
+     position: absolute;
+     width: 240px;
+     color: white;
+     font-size: 24px;
+     top: 50%;
+     left: 10%;
+     text-align: center;
+     font-weight: 600;
+ 
+ }
+ 
+ .analise  .container .card .icon .text {
+
+     position: absolute;
+     top: 90%;
+     left: 40%;
+     transform: translate(-50%, -50%);
+     font-size: 90px;
+ 
+ }
+ 
+ .analise  .container .card .slide {
+
+     width: 300px;
+     height: 200px;
+     transition: 0.5s;
+ 
+ }
+ 
+ .analise   .container .card .slide.slide1 {
+ 
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 1;
+     transition: .7s;
+     transform: translateY(100px);
+ 
+ }
+ 
+ .analise    .container .card:hover .slide.slide1{
+ 
+     transform: translateY(0px);
+ 
+ }
+ 
+ .analise .container .card .slide.slide2 {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     box-sizing: border-box;
+     transition: .8s;
+     transform: translateY(-100px);
+     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+     border-radius: 10px;
+ 
+ }
+
+ .analise    .container .card:hover .slide.slide2{
+     transform: translateY(0);
+ 
+ }
+ 
+ .analise   .container .card .slide.slide2::after{
+ 
+     content: "";
+     position: absolute;
+     width: 30px;
+     height: 4px;
+     bottom: 15px;
+     left: 50%;
+     left: 50%;
+     transform: translateX(-50%);
+     background: #004AAD;
+ 
+ }
+ 
+ .analise  .container .card .slide.slide2 .content p {
+     position:absolute;
+     width: 100%;
+     top: 10%;
+     left: 0%;
+     font-size: 17px;
+     text-align: center;
+     color: #414141;
+     text-align: center;
+ 
+ }
+.eficiencia{
+
+     position: absolute;
+     top: 45%;
+     left: 0%;
+     width: 100%;
+}
+.eficiencia img{
+
+     position: absolute;
+     width: 100%;
+}
+
+.adotar{
+     position: absolute;
+     top: 75%;
+     left: 0%;
+     height: 800px;
+     width: 100%;
+
+}
+.adotar p{
+     color:#004AAD ;
+     position: absolute;
+     width: 510px;
+     height: 200px;
+     left: 10%;
+     top: 30%;
+     font-size: 30px;
+     font-weight: 400;
+}
+
+.adotar img{
+
+     position: absolute;
+     left: 50%;
+     width: 650px;
+     top: 0%;
+}
+
+.exp{
+     position: absolute;
+     width: 100%;
+     height: 150px;
+     background-color: #020D3D;
+     color: #4A85D9;
+     top: 98%;
+
+}
+
+
+@media screen{
+     
+}
