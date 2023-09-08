@@ -52,6 +52,14 @@ li a{
 
 }
 
+.menu button{
+    background-color:#004bad00;
+    border: none;
+    color: white;
+    font-size: X-large;
+
+}
+
 .otimi{
 
      background-color: #004AAD;
@@ -777,4 +785,49 @@ li a{
     color: rgb(255, 254, 254);
     font-weight: 600;
 
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #ececec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para o botão que abre o popup */
+
+/* Estilos para o formulário dentro do popup */
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.popup form button{
+
+       color: black;
+}
+
+label {
+    margin-bottom: 5px;
 }

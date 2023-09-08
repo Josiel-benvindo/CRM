@@ -13,10 +13,65 @@
         <img src="C:\Users\josie\OneDrive\Documentos\CRM\IMG\logo branco.png" alt="">
         <ul>
             <li><a href="*">Sobre nós</a></li>
-            <li><a href="*">Contato</a></li>
-            <li><a href="*">Login</a></li>
+            <li><button id="contatopopup">Contato</button></li>
+            <li><a href="http://159.89.94.167:8089/#/auth/login">Login</a></li>
 
         </ul>
+        
+    
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="closePopup" class="close-popup">&times;</span>
+                <h2>Formulário de Contato</h2>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+      
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <Label for="nomeimp">Nome da empresa:</Label>
+                    <input type="text" id="nomeimp" name="nomeimp">
+
+                    <label for="contato">Contato</label>
+                    <input type="number" id="contato" name="contato" >
+
+                    <label for="areaatua">Area de atuação:</label>
+                    <select name="areaatua" id="areaatua">
+
+                        <option value="opcao1">Area de atuação</option>
+                        <option value="opcao2">Saúde</option>
+                        <option value="opcao3">Consultoria, Treinamentos e Coaching</option>
+                        <option value="opcao4">Comércio (atacado e vende para revendedores)</option>
+                        <option value="opcao5">Imobilíario</option>
+                        <option value="opcao6">Serviços</option>
+                        <option value="opcao7">Agência de marketing</option>
+                        <option value="opcao8">Jurídico</option>
+                        <option value="opcao9">Lojista(Varejo)</option>
+
+                    </select>
+
+                    <label for="cargo">Qaul é o seu cargo na empresa?</label>
+                    <select name="cargo" id="cargo">
+
+                        <option value="opcao1">Cargo</option>
+                        <option value="opcao2">Analista</option>
+                        <option value="opcao3">Superviso</option>
+                        <option value="opcao4">Coordenador</option>
+                        <option value="opcao5">Gerente</option>
+                        <option value="opcao6">Diretor</option>
+                        <option value="opcao7">Presidente ou CEO</option>
+
+                    </select>
+
+      
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+      
+          <script src="../JS/script.js"></script>
+
     </div>
     <div class="otimi">
         <img src="C:\Users\josie\OneDrive\Documentos\CRM\IMG\laptop_dash2.png" alt="">
@@ -243,6 +298,7 @@
 
         <h2><p>ACX | Digital © 2023. Todos os direitos reservados.</p></h2>
         
+       
 
     </div>
 
