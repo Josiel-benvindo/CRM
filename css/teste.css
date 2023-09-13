@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 2000px; /* Adicione uma altura suficiente para demonstração */
+}
+
+#minha-div {
+    margin-top: 500px; /* Espaço para a div aparecer após a rolagem */
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#rolar-para-div {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
