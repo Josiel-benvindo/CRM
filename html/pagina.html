@@ -25,9 +25,9 @@
                     <p>Preencha o Formulário</p>
                 </div>  
                 <span id="closePopup" class="close-popup">&times;</span>
-                <form class="formulario">
+                <form action="../PHP/crm.php" method="post" class="formulario">
                     <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="nome" required>
 
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
@@ -36,33 +36,33 @@
                     <input type="text" id="nomeimp" name="nomeimp" required>
 
                     <label for="contato">Contato</label>
-                    <input type="tel" id="contato" name="contato" required>
+                    <input type="number" id="contato" name="contato" required>
 
                     <label for="areaatua">Area de atuação:</label>
                     <select name="areaatua" id="areaatua" required>
 
-                        <option value="opcao1">Area de atuação</option>
-                        <option value="opcao2">Saúde</option>
-                        <option value="opcao3">Consultoria, Treinamentos e Coaching</option>
-                        <option value="opcao4">Comércio (atacado e vende para revendedores)</option>
-                        <option value="opcao5">Imobilíario</option>
-                        <option value="opcao6">Serviços</option>
-                        <option value="opcao7">Agência de marketing</option>
-                        <option value="opcao8">Jurídico</option>
-                        <option value="opcao9">Lojista(Varejo)</option>
+                        <option value="Area de atuação">Area de atuação</option>
+                        <option value="Saúde">Saúde</option>
+                        <option value="Consultoria, Treinamentos e Coaching">Consultoria, Treinamentos e Coaching</option>
+                        <option value="Comércio (atacado e vende para revendedores)">Comércio (atacado e vende para revendedores)</option>
+                        <option value="Imobilíario">Imobilíario</option>
+                        <option value="Serviços">Serviços</option>
+                        <option value="Agência de marketing">Agência de marketing</option>
+                        <option value="Jurídico">Jurídico</option>
+                        <option value="Lojista(Varejo)">Lojista(Varejo)</option>
 
                     </select>
 
                     <label for="cargo">Qaul é o seu cargo na empresa?</label>
                     <select name="cargo" id="cargo">
 
-                        <option value="opcao1">Cargo</option>
-                        <option value="opcao2">Analista</option>
-                        <option value="opcao3">Superviso</option>
-                        <option value="opcao4">Coordenador</option>
-                        <option value="opcao5">Gerente</option>
-                        <option value="opcao6">Diretor</option>
-                        <option value="opcao7">Presidente ou CEO</option>
+                        <option value="Cargo">Cargo</option>
+                        <option value="Analista">Analista</option>
+                        <option value="Superviso">Superviso</option>
+                        <option value="Coordenador">Coordenador</option>
+                        <option value="Gerente">Gerente</option>
+                        <option value="Diretor">Diretor</option>
+                        <option value="Presidente ou CEO">Presidente ou CEO</option>
 
                     </select>
 
