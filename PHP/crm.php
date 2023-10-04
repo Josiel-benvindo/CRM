@@ -17,6 +17,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Erro ao inserir dados: " . $conexao->error;
     }
 
+    header("Location: ../html/pagina.html");
+    exit();
+
     $conexao->close(); 
 }
 ?>

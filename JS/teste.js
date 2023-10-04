@@ -1,21 +1,14 @@
-//document.addEventListener("DOMContentLoaded", function () {
-  //  const botao = document.getElementById("mostrar-esconder");
-    //const div = document.getElementById("minha-div");
+document.addEventListener("DOMContentLoaded", function() {
+  var botaoLerMais = document.getElementById("botao-ler-mais");
+  var maisConteudo = document.querySelector(".mais-conteudo");
 
-    //botao.addEventListener("click", function () {
-      //  if (div.style.display === "none" || div.style.display === "") {
-        //    div.style.display = "block";
-        //} else {
-          //  div.style.display = "none";
-        //}
-    //});
-//});
-
-document.addEventListener("DOMContentLoaded", function () {
-    const botao = document.getElementById("rolar-botao");
-    const divDestino = document.getElementById("eficiencia");
-
-    botao.addEventListener("click", function () {
-        divDestino.scrollIntoView({ behavior: "smooth" });
-    });
+  botaoLerMais.addEventListener("click", function() {
+      if (maisConteudo.style.display === "none") {
+          maisConteudo.style.display = "block";
+          botaoLerMais.innerText = "Ler Menos";
+      } else {
+          maisConteudo.style.display = "none";
+          botaoLerMais.innerText = "Ler Mais";
+      }
+  });
 });

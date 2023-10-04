@@ -1,21 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
-    height: 2000px; /* Adicione uma altura suficiente para demonstração */
-}
-
-#minha-div {
-    margin-top: 500px; /* Espaço para a div aparecer após a rolagem */
+.conteudo {
+    max-width: 400px; /* Defina o máximo de largura para o seu conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
     padding: 20px;
-    background-color: #f0f0f0;
-    text-align: center;
+    border: 1px solid #ccc;
 }
 
-#rolar-para-div {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
+.mais-conteudo {
+    margin-top: 20px;
+}
+
+#botao-ler-mais {
     background-color: #007bff;
     color: #fff;
     border: none;
+    padding: 10px 20px;
     cursor: pointer;
 }
+
